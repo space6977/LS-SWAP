@@ -1,0 +1,15 @@
+var itemlist = this.getField('');
+var Price = this.getField("");
+
+if(!event.willCommit)
+{switch(event.value)
+{
+case "Trans"
+    itemlist.setItems(["",""]);
+    Price.value = "";
+    break;
+
+}
+
+
+}
